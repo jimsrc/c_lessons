@@ -1,6 +1,7 @@
 ## LESSONS FROM C & C++
 
-- _templates_: use of templates with linked objects :smiley: /play yeah
+- _templates_: use of templates with linked objects :smiley:
+
 Use:
 ```
 cd templates

@@ -29,3 +29,4 @@ class dummy{
 };
 
 typedef dummy<double> dummy_doub;
+//EOF

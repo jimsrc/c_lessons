@@ -1,5 +1,7 @@
 #!/bin/bash
-.PHONY: default help object executable all clean
+
+# evrthng that is not a file
+.PHONY: default help object executable all clean 
 
 #SOURCE_C = $(wildcard *.cc)
 SOURCE_C = tt.cc dummy.cc #dummy.cc #nrr3_.cc

@@ -17,4 +17,4 @@ dummy<T>::dummy(){
 
 
 //typedef dummy<double> dummy_doub;
-template class dummy<double>;
+template class dummy<double>;  // THIS IS IMPORTANT
