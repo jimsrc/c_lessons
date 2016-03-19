@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://github.com/bombela/backward-cpp -->
+<html lang="en" class=""><head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=1020">
+    
+    
+    <title>bombela/backward-cpp · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="https://github.com/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://github.com/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://github.com/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://github.com/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://github.com/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site"><meta content="summary" name="twitter:card"><meta content="bombela/backward-cpp" name="twitter:title"><meta content="backward-cpp - A beautiful stack trace pretty printer for C++" name="twitter:description"><meta content="https://avatars2.githubusercontent.com/u/216204?v=3&amp;s=400" name="twitter:image:src">
+      <meta content="GitHub" property="og:site_name"><meta content="object" property="og:type"><meta content="https://avatars2.githubusercontent.com/u/216204?v=3&amp;s=400" property="og:image"><meta content="bombela/backward-cpp" property="og:title"><meta content="https://github.com/bombela/backward-cpp" property="og:url"><meta content="backward-cpp - A beautiful stack trace pretty printer for C++" property="og:description">
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient="">
+
+        <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host"><meta content="collector-cdn.github.com" name="octolytics-script-host"><meta content="github" name="octolytics-app-id"><meta content="B55F6A59:0554:C27CE3A:55A6E876" name="octolytics-dimension-request_id">
+    
+    <meta content="Rails, view, files#disambiguate" data-pjax-transient="true" name="analytics-event">
+    <meta class="js-ga-set" name="dimension1" content="Logged Out">
+    <meta name="is-dotcom" content="true">
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <link rel="icon" sizes="any" mask="" href="https://assets-cdn.github.com/pinned-octocat.svg">
+      <meta name="theme-color" content="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+
+    <meta content="authenticity_token" name="csrf-param">
+<meta content="N9QQlG/OVYQchq3mBVcOdRcgIz0tYga1ao5F4gusmHG3prPERvW4SqwjCYxaRq+0iTcVukrHAw660R7/gasBNg==" name="csrf-token">
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github/index-8824a5ef57ac4ae0b5ca429778b9660b1c66d09deea2ff11681de18d86a4bbb1.css" media="all" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2/index-f0d033a37796c27f6b5b24aa8dc21af9c206a51ed2fe782d660dc20267c17d2b.css" media="all" rel="stylesheet">
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="3f58d2288e653bc3998db56bf3ad89c7">
+
+      
+  <meta name="description" content="backward-cpp - A beautiful stack trace pretty printer for C++">
+  <meta name="go-import" content="github.com/bombela/backward-cpp git https://github.com/bombela/backward-cpp.git">
+
+  <meta content="216204" name="octolytics-dimension-user_id"><meta content="bombela" name="octolytics-dimension-user_login"><meta content="8247784" name="octolytics-dimension-repository_id"><meta content="bombela/backward-cpp" name="octolytics-dimension-repository_nwo"><meta content="true" name="octolytics-dimension-repository_public"><meta content="false" name="octolytics-dimension-repository_is_fork"><meta content="8247784" name="octolytics-dimension-repository_network_root_id"><meta content="bombela/backward-cpp" name="octolytics-dimension-repository_network_root_nwo">
+  <link href="https://github.com/bombela/backward-cpp/commits/master.atom" rel="alternate" title="Recent Commits to backward-cpp:master" type="application/atom+xml">
+
+  <script type="text/javascript" async="" src="./backward-cpp_files/ga.js"></script><script type="text/javascript" async="" src="https://ssl/"></script><script type="text/javascript" async="" src="./backward-cpp_files/api.js"></script><script type="text/javascript" src="./backward-cpp_files/updates.js"></script><script type="text/javascript" src="./backward-cpp_files/l.js"></script><script type="text/javascript" src="./backward-cpp_files/loader.js"></script></head>
+
+
+  <body class="logged_out  env-production linux vis-public">
+    <a href="https://github.com/bombela/backward-cpp#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+
+
+
+        
+        <div class="header header-logged-out" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions" role="navigation">
+        <a class="btn btn-primary" href="https://github.com/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="btn" href="https://github.com/login?return_to=%2Fbombela%2Fbackward-cpp" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search repo-scope js-site-search" role="search">
+      <form accept-charset="UTF-8" action="https://github.com/bombela/backward-cpp/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/bombela/backward-cpp/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+  <label class="js-chromeless-input-container form-control">
+    <div class="scope-badge">This repository</div>
+    <input type="text" class="js-site-search-focus js-site-search-field is-clearable chromeless-input" data-hotkey="s" name="q" placeholder="Search" data-global-scope-placeholder="Search GitHub" data-repo-scope-placeholder="Search" tabindex="1" autocapitalize="off">
+  </label>
+</form>
+    </div>
+
+      <ul class="header-nav left" role="navigation">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://github.com/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://github.com/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://github.com/blog" data-ga-click="(Logged out) Header, go to blog, text:blog">Blog</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope="" itemtype="http://schema.org/WebPage">
+    <div id="js-flash-container">
+      
+    </div>
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+
+        
+<ul class="pagehead-actions">
+
+  <li>
+      <a href="https://github.com/login?return_to=%2Fbombela%2Fbackward-cpp" class="btn btn-sm btn-with-count tooltipped tooltipped-n" aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <span class="octicon octicon-eye"></span>
+    Watch
+  </a>
+  <a class="social-count" href="https://github.com/bombela/backward-cpp/watchers">
+    63
+  </a>
+
+  </li>
+
+  <li>
+      <a href="https://github.com/login?return_to=%2Fbombela%2Fbackward-cpp" class="btn btn-sm btn-with-count tooltipped tooltipped-n" aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="https://github.com/bombela/backward-cpp/stargazers">
+      440
+    </a>
+
+  </li>
+
+    <li>
+      <a href="https://github.com/login?return_to=%2Fbombela%2Fbackward-cpp" class="btn btn-sm btn-with-count tooltipped tooltipped-n" aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+      <a href="https://github.com/bombela/backward-cpp/network" class="social-count">
+        54
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author"><a href="https://github.com/bombela" class="url fn" itemprop="url" rel="author"><span itemprop="title">bombela</span></a></span><!--
+       --><span class="path-divider">/</span><!--
+       --><strong><a href="./backward-cpp_files/backward-cpp.html" data-pjax="#js-repo-pjax-container">backward-cpp</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="" height="16" src="./backward-cpp_files/octocat-spinner-32.gif" width="16">
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline with-full-navigation">
+        <div class="repository-sidebar clearfix">
+            
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders" role="navigation" data-pjax="#js-repo-pjax-container" data-issue-count-url="/bombela/backward-cpp/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="./backward-cpp_files/backward-cpp.html" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /bombela/backward-cpp">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="./backward-cpp_files/octocat-spinner-32.gif" width="16">
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="https://github.com/bombela/backward-cpp/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /bombela/backward-cpp/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="counter">3</span>
+
+          <img alt="" class="mini-loader" height="16" src="./backward-cpp_files/octocat-spinner-32.gif" width="16">
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull requests">
+      <a href="https://github.com/bombela/backward-cpp/pulls" aria-label="Pull requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /bombela/backward-cpp/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull requests</span>
+          <span class="counter">0</span>
+
+          <img alt="" class="mini-loader" height="16" src="./backward-cpp_files/octocat-spinner-32.gif" width="16">
+</a>    </li>
+
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="https://github.com/bombela/backward-cpp/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /bombela/backward-cpp/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="./backward-cpp_files/octocat-spinner-32.gif" width="16">
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="https://github.com/bombela/backward-cpp/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /bombela/backward-cpp/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="./backward-cpp_files/octocat-spinner-32.gif" width="16">
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+              <div class="only-with-full-nav">
+                  
+<div class="js-clone-url clone-url open" data-protocol-type="http">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target" value="https://github.com/bombela/backward-cpp.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url " data-protocol-type="subversion">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target" value="https://github.com/bombela/backward-cpp" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+<div class="clone-options">You can clone with
+  <form accept-charset="UTF-8" action="https://github.com/users/set_protocol?protocol_selector=http&protocol_type=clone" class="inline-form js-clone-selector-form " data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="EE/9uYZUrLrlmP3qtAKPEvivtD3mIzKEMNXg2u8BXApVVQJ5a5tnwF7ptUaehs6iTocBI2ZT6EwqaRL9leX6uQ=="></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form> or <form accept-charset="UTF-8" action="https://github.com/users/set_protocol?protocol_selector=subversion&protocol_type=clone" class="inline-form js-clone-selector-form " data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="A5aaQl6sQUB0fH0BDqnL1XbOrAh1amBYySEZwHBqTwdN70zqltaAQplAvJC7GlrFjE8Uzy8H5AnYa5KRso7COA=="></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</div>
+
+
+
+
+                <a href="https://github.com/bombela/backward-cpp/archive/master.zip" class="btn btn-sm sidebar-button" aria-label="Download the contents of bombela/backward-cpp as a zip file" title="Download the contents of bombela/backward-cpp as a zip file" rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container="">
+
+          
+<span id="js-show-full-navigation"></span>
+
+<div class="repository-meta js-details-container ">
+    <div class="repository-description">
+      A beautiful stack trace pretty printer for C++
+    </div>
+
+
+
+</div>
+
+<div class="overall-summary overall-summary-bottomless">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+    <div class="stats-switcher-wrapper">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax="" href="https://github.com/bombela/backward-cpp/commits/master">
+            <span class="octicon octicon-history"></span>
+            <span class="num text-emphasized">
+              64
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax="" href="https://github.com/bombela/backward-cpp/branches">
+          <span class="octicon octicon-git-branch"></span>
+          <span class="num text-emphasized">
+            1
+          </span>
+          branch
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax="" href="https://github.com/bombela/backward-cpp/releases">
+          <span class="octicon octicon-tag"></span>
+          <span class="num text-emphasized">
+            0
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+        
+  <a href="https://github.com/bombela/backward-cpp/graphs/contributors">
+    <span class="octicon octicon-organization"></span>
+    <span class="num text-emphasized">
+      5
+    </span>
+    contributors
+  </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="https://github.com/bombela/backward-cpp/search?l=cpp">
+                <span class="color-block language-color" style="background-color:#f34b7d;"></span>
+                <span class="lang">C++</span>
+                <span class="percent">98.1%</span>
+              </a>
+          </li>
+          <li>
+              <a href="https://github.com/bombela/backward-cpp/search?l=bash">
+                <span class="color-block language-color" style="background-color:#89e051;"></span>
+                <span class="lang">Shell</span>
+                <span class="percent">1.9%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details">
+    <span class="language-color" aria-label="C++ 98.1%" style="width:98.1%; background-color:#f34b7d;" itemprop="keywords">C++</span>
+    <span class="language-color" aria-label="Shell 1.9%" style="width:1.9%; background-color:#89e051;" itemprop="keywords">Shell</span>
+  </div>
+
+
+
+<div class="file-navigation in-mid-page">
+  <a href="https://github.com/bombela/backward-cpp/find/master" class="js-show-file-finder btn btn-sm empty-icon tooltipped tooltipped-s right" data-pjax="" data-hotkey="t" aria-label="Quickly jump between files">
+    <span class="octicon octicon-list-unordered"></span>
+  </a>
+    <a href="https://github.com/bombela/backward-cpp/compare" aria-label="Compare, review, create a pull request" class="btn btn-sm btn-primary tooltipped tooltipped-se left compare-button" data-pjax="" data-ga-click="Repository, go to compare view, location:repo overview; icon:git-compare">
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w" data-ref="master" title="master" role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax="" aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="https://github.com/bombela/backward-cpp#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="https://github.com/bombela/backward-cpp#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected" href="https://github.com/bombela/backward-cpp/tree/master" data-name="master" data-skip-pjax="true" rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="master">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="breadcrumb"><span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="./backward-cpp_files/backward-cpp.html" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">backward-cpp</span></a></span></span><span class="separator">/</span>
+    <a class="btn-link disabled tooltipped tooltipped-e" href="https://github.com/bombela/backward-cpp#" aria-label="You must be signed in to make or propose changes">
+      <span class="octicon octicon-plus"></span>
+    </a>
+</div>
+</div>
+
+
+
+  
+  <div class="commit commit-tease js-details-container">
+    <p class="commit-title ">
+        <a href="https://github.com/bombela/backward-cpp/commit/2f0397daa4a9ba6fc23879f057bab192083d3aab" class="message" data-pjax="true" title="Merge pull request #20 from hesiod/master
+
+Documentation">Merge pull request</a> <a href="https://github.com/bombela/backward-cpp/pull/20" class="issue-link" title="Documentation">#20</a> <a href="https://github.com/bombela/backward-cpp/commit/2f0397daa4a9ba6fc23879f057bab192083d3aab" class="message" data-pjax="true" title="Merge pull request #20 from hesiod/master
+
+Documentation">from hesiod/master</a>
+        <span class="hidden-text-expander inline"><a href="https://github.com/bombela/backward-cpp#" class="js-details-target">…</a></span>
+    </p>
+      <div class="commit-desc"><pre>Documentation</pre></div>
+    <div class="commit-meta">
+      <button aria-label="Copy SHA" class="js-zeroclipboard zeroclipboard-link tooltipped tooltipped-s" data-clipboard-text="2f0397daa4a9ba6fc23879f057bab192083d3aab" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+      <a href="https://github.com/bombela/backward-cpp/commit/2f0397daa4a9ba6fc23879f057bab192083d3aab" class="sha-block" data-pjax="">latest commit <span class="sha">2f0397daa4</span></a>
+
+      <div class="authorship">
+        <img alt="@bombela" class="avatar" data-user="216204" height="20" src="./backward-cpp_files/216204" width="20">
+        <span class="author-name"><a href="https://github.com/bombela" rel="author">bombela</a></span>
+        authored <time class="updated" datetime="2014-11-03T21:24:55Z" is="relative-time" title="3 de nov de 2014 18:24 GMT-03:00">on 3 Nov 2014</time>
+
+      </div>
+    </div>
+  </div>
+
+  
+<div class="file-wrap">
+  <a href="https://github.com/bombela/backward-cpp/tree/2f0397daa4a9ba6fc23879f057bab192083d3aab" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+  <table class="files" data-pjax="">
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><span class="octicon octicon-alert"></span></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="./backward-cpp_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/bombela/backward-cpp/tree/master/doc" class="js-directory-link" id="9a09b4dfda82e3e665e31092d1c3ec8d-a8e72c03c1727d0b58de894326d91248ea99cd8a" title="doc">doc</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="https://github.com/bombela/backward-cpp/commit/1ae978ab7720a8212b5c552de85b7add13cf52f0" class="message" data-pjax="true" title="Initial import.">Initial import.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-03-15T06:10:06Z" is="time-ago" title="15 de mar de 2013 03:10 GMT-03:00">2 years ago</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="./backward-cpp_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/bombela/backward-cpp/tree/master/test" class="js-directory-link" id="098f6bcd4621d373cade4e832627b4f6-d7cb19b25d81e9666d614a31ce8f9f36eb5e9969" title="test">test</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="https://github.com/bombela/backward-cpp/commit/c486368c543f10127431098a57d04c88a442296f" class="message" data-pjax="true" title="stackoverflow test">stackoverflow test</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-11-18T07:00:47Z" is="time-ago" title="18 de nov de 2013 04:00 GMT-03:00">2 years ago</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="./backward-cpp_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/bombela/backward-cpp/blob/master/.gitignore" class="js-directory-link" id="a084b794bc0759e7a6b77810e01874f2-a5309e6b906e70a1fc24bd8ec477aa4918ef403e" title=".gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="https://github.com/bombela/backward-cpp/commit/858e4b7512b5750d3ce712ce77d1eb8abee8e18d" class="message" data-pjax="true" title="Add .gitignore">Add .gitignore</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-11-06T07:53:36Z" is="time-ago" title="6 de nov de 2013 04:53 GMT-03:00">2 years ago</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="./backward-cpp_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/bombela/backward-cpp/blob/master/CMakeLists.txt" class="js-directory-link" id="af3b638bc2a3e6c650974192a53c7291-db91a31592a0d6ec10aae4c75dc6b0cd602f9694" title="CMakeLists.txt">CMakeLists.txt</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="https://github.com/bombela/backward-cpp/commit/aeaa324f1ef38419e3b2eb51750b88ae5cb24799" class="message" data-pjax="true" title="Revert 0660344
+
+Turns out I was wrong, we do need that command.">Revert</a> <a href="https://github.com/bombela/backward-cpp/commit/0660344151bb832e961d0247675b83bb830af989" class="commit-link"><tt>0660344</tt></a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-10-29T09:43:25Z" is="time-ago" title="29 de oct de 2014 06:43 GMT-03:00">9 months ago</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="./backward-cpp_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/bombela/backward-cpp/blob/master/LICENSE.txt" class="js-directory-link" id="61e0bdf7e1b43c5c93d9488b22e04170-269e8abbc0ffcae554f10c2295b7199c89f34354" title="LICENSE.txt">LICENSE.txt</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="https://github.com/bombela/backward-cpp/commit/2104840c1db3e0e94551b0ade17e50dc08fd58f8" class="message" data-pjax="true" title="Attribute Copyright to Google Inc.">Attribute Copyright to Google Inc.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-03-17T22:59:09Z" is="time-ago" title="17 de mar de 2013 19:59 GMT-03:00">2 years ago</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="./backward-cpp_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/bombela/backward-cpp/blob/master/README.md" class="js-directory-link" id="04c6e90faac2675aa89e2176d2eec7d8-fea279940a60429b9395aad197ce1611cf0baff3" title="README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="https://github.com/bombela/backward-cpp/commit/dbe01f97f70b1599e7ee2bdb99fca39a19aa5621" class="message" data-pjax="true" title="Describe CMake integration">Describe CMake integration</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-10-24T14:51:13Z" is="time-ago" title="24 de oct de 2014 11:51 GMT-03:00">9 months ago</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="./backward-cpp_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/bombela/backward-cpp/blob/master/backward.cpp" class="js-directory-link" id="d99ac04f7d7ed69fb6f200797f66f6da-4c68284d771f9d70a5e2ad50d33e47b44e39a92e" title="backward.cpp">backward.cpp</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="https://github.com/bombela/backward-cpp/commit/1ae978ab7720a8212b5c552de85b7add13cf52f0" class="message" data-pjax="true" title="Initial import.">Initial import.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-03-15T06:10:06Z" is="time-ago" title="15 de mar de 2013 03:10 GMT-03:00">2 years ago</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="./backward-cpp_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/bombela/backward-cpp/blob/master/backward.hpp" class="js-directory-link" id="b9046c8564de19b84e1588d8060888ba-aa4ce496ea516b065933ae36bd32e17b41800b5d" title="backward.hpp">backward.hpp</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="https://github.com/bombela/backward-cpp/commit/7a56ae336ad24feaa0573fd3e40fcc8683bb9406" class="message" data-pjax="true" title="Fix compilation warning under clang
+
+Clang complains about adding const to a reference type having no effect.
+Fix this by adding and using a const_ref_t.">Fix compilation warning under clang</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-10-18T16:35:13Z" is="time-ago" title="18 de oct de 2014 13:35 GMT-03:00">9 months ago</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="./backward-cpp_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/bombela/backward-cpp/blob/master/builds.sh" class="js-directory-link" id="b88ffdc1ebadf4597f58aa02f0b1a719-60c39c45a0eca04607372c9ea42d7bfbe8681fd4" title="builds.sh">builds.sh</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="https://github.com/bombela/backward-cpp/commit/d9777cf5c1ee3587a0c3e6b1021fe89ffeac5d3d" class="message" data-pjax="true" title="Adding BACKWARD_HAS_* config in cmake for tests">Adding BACKWARD_HAS_* config in cmake for tests</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-11-06T09:46:36Z" is="time-ago" title="6 de nov de 2013 06:46 GMT-03:00">2 years ago</time></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+  <div id="readme" class="boxed-group flush clearfix announce instapaper_body md">
+    <h3>
+      <span class="octicon octicon-book"></span>
+      README.md
+    </h3>
+
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-backward-cpp" class="anchor" href="https://github.com/bombela/backward-cpp#backward-cpp" aria-hidden="true"><span class="octicon octicon-link"></span></a>Backward-cpp</h1>
+
+<p>Backward is a beautiful stack trace pretty printer for C++.</p>
+
+<p>If you are bored to see this:</p>
+
+<p><a href="https://github.com/bombela/backward-cpp/blob/master/doc/rude.png" target="_blank"><img src="./backward-cpp_files/rude.png" alt="default trace" style="max-width:100%;"></a></p>
+
+<p>Backward will spice it up for you:</p>
+
+<p><a href="https://github.com/bombela/backward-cpp/blob/master/doc/pretty.png" target="_blank"><img src="./backward-cpp_files/pretty.png" alt="pretty stackstrace" style="max-width:100%;"></a></p>
+
+<p>There is not much to say. Of course it will be able to display the code
+snippets only if the source files are accessible (else see trace #4 in the
+example).</p>
+
+<p>All "Source" lines and code snippet prefixed by a pipe "|" are frames inline
+the next frame.
+You can see that for the trace #1 in the example, the function
+<code>you_shall_not_pass()</code> was inlined in the function <code>...read2::do_test()</code> by the
+compiler.</p>
+
+<h2><a id="user-content-installation" class="anchor" href="https://github.com/bombela/backward-cpp#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<h4><a id="user-content-install-backwardhpp" class="anchor" href="https://github.com/bombela/backward-cpp#install-backwardhpp" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install backward.hpp</h4>
+
+<p>Backward is a header only library. So installing Backward is easy, simply drop
+a copy of <code>backward.hpp</code> along with your other source files in your C++ project.
+You can also use a git submodule or really any other way that best fits your
+environment, as long as you can include <code>backward.hpp</code>.</p>
+
+<h4><a id="user-content-install-backwardcpp" class="anchor" href="https://github.com/bombela/backward-cpp#install-backwardcpp" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install backward.cpp</h4>
+
+<p>If you want Backward to automatically print a stack trace on most common fatal
+errors (segfault, abort, un-handled exception...), simply add a copy of
+<code>backward.cpp</code> to your project, and don't forget to tell your build system.</p>
+
+<p>The code in <code>backward.cpp</code> is trivial anyway, you can simply copy what it's
+doing at your convenience.</p>
+
+<h2><a id="user-content-configuration--dependencies" class="anchor" href="https://github.com/bombela/backward-cpp#configuration--dependencies" aria-hidden="true"><span class="octicon octicon-link"></span></a>Configuration &amp; Dependencies</h2>
+
+<h3><a id="user-content-integration-with-cmake" class="anchor" href="https://github.com/bombela/backward-cpp#integration-with-cmake" aria-hidden="true"><span class="octicon octicon-link"></span></a>Integration with CMake</h3>
+
+<p>If you are using CMake and want to use its configuration abilities to save
+you the trouble, you can easily integrate Backward:</p>
+
+<pre><code>add_subdirectory(/path/to/backward-cpp)
+
+# This will add backward.cpp to your target
+add_executable(myproject mysource.cpp ${backward_ENABLE})
+
+# This will add libraries, definitions and include directories needed by backward
+add_backward(myproject)
+</code></pre>
+
+<h3><a id="user-content-compile-with-debug-info" class="anchor" href="https://github.com/bombela/backward-cpp#compile-with-debug-info" aria-hidden="true"><span class="octicon octicon-link"></span></a>Compile with debug info</h3>
+
+<p>You need to compile your project with generation of debug symbols enabled,
+usually <code>-g</code> with clang++ and g++.</p>
+
+<p>Note that you can use <code>-g</code> with any level of optimization, with modern debug
+information encoding like DWARF, it only takes space in the binary (it'ss not
+loaded in memory until your debugger or Backward makes use of it, don't worry),
+and it doesn't impact the code generation (at least on GNU/Linux x86_64 for
+what I know).</p>
+
+<p>If you are missing debug information, the stack trace will lack details about
+your sources.</p>
+
+<h3><a id="user-content-libraries-to-read-the-debug-info" class="anchor" href="https://github.com/bombela/backward-cpp#libraries-to-read-the-debug-info" aria-hidden="true"><span class="octicon octicon-link"></span></a>Libraries to read the debug info</h3>
+
+<p>Backward support pretty printed stack traces on GNU/Linux only, it will compile
+fine under other platforms but will not do anything.  <strong>Pull requests are
+welcome :)</strong></p>
+
+<p>Also, by default you will get a really basic stack trace, based on the
+<code>backtrace_symbols</code> API:</p>
+
+<p><a href="https://github.com/bombela/backward-cpp/blob/master/doc/nice.png" target="_blank"><img src="./backward-cpp_files/nice.png" alt="default trace" style="max-width:100%;"></a></p>
+
+<p>You will need to install some dependencies to get the ultimate stack trace. Two
+libraries are currently supported, the only difference is which one is the
+easiest for you to install, so pick your poison:</p>
+
+<h4><a id="user-content-libbfd-from-the-gnubinutils" class="anchor" href="https://github.com/bombela/backward-cpp#libbfd-from-the-gnubinutils" aria-hidden="true"><span class="octicon octicon-link"></span></a>libbfd from the <a href="http://www.gnu.org/software/binutils/">GNU/binutils</a></h4>
+
+<pre><code>apt-get install binutils-dev (or equivalent)
+</code></pre>
+
+<p>And do not forget to link with the lib: <code>g++/clang++ -lbfd ...</code></p>
+
+<p>Then define the following before every inclusion of <code>backward.hpp</code> (don't
+forget to update <code>backward.cpp</code> as well):</p>
+
+<pre><code>#define BACKWARD_HAS_BFD 1
+</code></pre>
+
+<h4><a id="user-content-libdw-from-the-elfutils" class="anchor" href="https://github.com/bombela/backward-cpp#libdw-from-the-elfutils" aria-hidden="true"><span class="octicon octicon-link"></span></a>libdw from the <a href="https://fedorahosted.org/elfutils/">elfutils</a></h4>
+
+<pre><code>apt-get install libdw-dev (or equivalent)
+</code></pre>
+
+<p>And do not forget to link with the lib and inform Backward to use it:</p>
+
+<pre><code>#define BACKWARD_HAS_DW 1
+</code></pre>
+
+<p>Of course you can simply add the define (<code>-DBACKWARD_HAS_...=1</code>) and the
+linkage details in your build system and even auto-detect which library is
+installed, it's up to you.</p>
+
+<p>That'ss it, you are all set, you should be getting nice stack traces like the
+one at the beginning of this document.</p>
+
+<h2><a id="user-content-api" class="anchor" href="https://github.com/bombela/backward-cpp#api" aria-hidden="true"><span class="octicon octicon-link"></span></a>API</h2>
+
+<p>If you don't want to limit yourself to the defaults offered by <code>backward.cpp</code>,
+and you want to take some random stack traces for whatever reason and pretty
+print them the way you love or you decide to send them all to your buddies over
+the Internet, you will appreciate the simplicity of Backward's API.</p>
+
+<h3><a id="user-content-stacktrace" class="anchor" href="https://github.com/bombela/backward-cpp#stacktrace" aria-hidden="true"><span class="octicon octicon-link"></span></a>Stacktrace</h3>
+
+<p>The Stacktrace class lets you take a "snapshot" of the current stack.
+You can use it like this:</p>
+
+<div class="highlight highlight-c++"><pre><span class="pl-k">using</span> <span class="pl-k">namespace</span> <span class="pl-en">backward</span><span class="pl-k">;</span>
+Stacktrace st; st.load_here(<span class="pl-c1">32</span>);
+Printer p; p.print(st);</pre></div>
+
+<p>The public methods are:</p>
+
+<div class="highlight highlight-c++"><pre><span class="pl-k">class</span> <span class="pl-en">StackTrace</span> { <span class="pl-k">public:</span>
+    <span class="pl-c">// Take a snapshot of the current stack, with at most "trace_cnt_max"</span>
+    <span class="pl-c">// traces in it. The first trace is the most recent (ie the current</span>
+    <span class="pl-c">// frame). You can also provide a trace address to load_from() assuming</span>
+    <span class="pl-c">// the address is a valid stack frame (useful for signal handling traces).</span>
+    <span class="pl-c">// Both function return size().</span>
+    <span class="pl-c1">size_t</span> <span class="pl-en">load_here</span>(<span class="pl-c1">size_t</span> trace_cnt_max)
+    size_t load_from(<span class="pl-k">void</span>* address, <span class="pl-c1">size_t</span> trace_cnt_max)
+
+    <span class="pl-c">// The number of traces loaded. This can be less than "trace_cnt_max".</span>
+    size_t size() <span class="pl-k">const</span>
+
+    <span class="pl-c">// A unique id for the thread in which the trace was taken. The value</span>
+    <span class="pl-c">// 0 means the stack trace comes from the main thread.</span>
+    size_t thread_id() <span class="pl-k">const</span>
+
+    <span class="pl-c">// Retrieve a trace by index. 0 is the most recent trace, size()-1 is</span>
+    <span class="pl-c">// the oldest one.</span>
+    Trace operator[](<span class="pl-c1">size_t</span> trace_idx)
+};</pre></div>
+
+<h3><a id="user-content-traceresolver" class="anchor" href="https://github.com/bombela/backward-cpp#traceresolver" aria-hidden="true"><span class="octicon octicon-link"></span></a>TraceResolver</h3>
+
+<p>The <code>TraceResolver</code> does the heavy lifting, and intends to transform a simple
+<code>Trace</code> from its address into a fully detailed <code>ResolvedTrace</code> with the
+filename of the source, line numbers, inlined functions and so on.</p>
+
+<p>You can use it like this:</p>
+
+<div class="highlight highlight-c++"><pre><span class="pl-k">using</span> <span class="pl-k">namespace</span> <span class="pl-en">backward</span><span class="pl-k">;</span>
+Stacktrace st; st.load_here(<span class="pl-c1">32</span>);
+
+TraceResolver tr; tr.load_stacktrace(st);
+<span class="pl-k">for</span> (<span class="pl-c1">size_t</span> i = <span class="pl-c1">0</span>; i &lt; st.size(); ++i) {
+    ResolvedTrace trace = tr.<span class="pl-c1">resolve</span>(st[i]);
+    std::cout &lt;&lt; <span class="pl-s"><span class="pl-pds">"</span>#<span class="pl-pds">"</span></span> &lt;&lt; i
+        &lt;&lt; <span class="pl-s"><span class="pl-pds">"</span> <span class="pl-pds">"</span></span> &lt;&lt; trace.<span class="pl-smi">object_filename</span>
+        &lt;&lt; <span class="pl-s"><span class="pl-pds">"</span> <span class="pl-pds">"</span></span> &lt;&lt; trace.<span class="pl-smi">object_function</span>
+        &lt;&lt; <span class="pl-s"><span class="pl-pds">"</span> [<span class="pl-pds">"</span></span> &lt;&lt; trace.<span class="pl-smi">addr</span> &lt;&lt; <span class="pl-s"><span class="pl-pds">"</span>]<span class="pl-pds">"</span></span>
+    &lt;&lt; std::endl;
+}</pre></div>
+
+<p>The public methods are:</p>
+
+<div class="highlight highlight-c++"><pre><span class="pl-k">class</span> <span class="pl-en">TraceResolver</span> { <span class="pl-k">public:</span>
+    <span class="pl-c">// Pre-load whatever is necessary from the stack trace.</span>
+    <span class="pl-k">template </span>&lt;<span class="pl-k">class</span> <span class="pl-en">ST</span>&gt;
+        <span class="pl-k">void</span> <span class="pl-en">load_stacktrace</span>(ST&amp;)
+
+    <span class="pl-c">// Resolve a trace. It takes a ResolvedTrace, because a `Trace` or a</span>
+    <span class="pl-c">// `TraceWithLocals` are implicitly convertible to a ResolvedTrace.</span>
+    ResolvedTrace resolve(ResolvedTrace t)
+};</pre></div>
+
+<h3><a id="user-content-snippetfactory" class="anchor" href="https://github.com/bombela/backward-cpp#snippetfactory" aria-hidden="true"><span class="octicon octicon-link"></span></a>SnippetFactory</h3>
+
+<p>The SnippetFactory is a simple helper class to automatically load and cache
+source files in order to extract code snippets.</p>
+
+<div class="highlight highlight-c++"><pre><span class="pl-k">class</span> <span class="pl-en">SnippetFactory</span> { <span class="pl-k">public:</span>
+    <span class="pl-c">// A snippet is a list of line numbers and line contents.</span>
+    <span class="pl-k">typedef</span> std::vector&lt;std::pair&lt;<span class="pl-c1">size_t</span>, std::string&gt; &gt; <span class="pl-c1">lines_t</span>;
+
+    <span class="pl-c">// Return a snippet starting at line_start with up to context_size lines.</span>
+    <span class="pl-c1">lines_t</span> <span class="pl-en">get_snippet</span>(<span class="pl-k">const</span> std::string&amp; filename,
+            <span class="pl-c1">size_t</span> line_start, <span class="pl-c1">size_t</span> context_size)
+
+    <span class="pl-c">// Return a combined snippet from two different locations and combine them.</span>
+    <span class="pl-c">// context_size / 2 lines will be extracted from each location.</span>
+    lines_t get_combined_snippet(
+            <span class="pl-k">const</span> std::string&amp; filename_a, <span class="pl-c1">size_t</span> line_a,
+            <span class="pl-k">const</span> std::string&amp; filename_b, <span class="pl-c1">size_t</span> line_b,
+            <span class="pl-c1">size_t</span> context_size)
+
+    <span class="pl-c">// Tries to return a unified snippet if the two locations from the same</span>
+    <span class="pl-c">// file are close enough to fit inside one context_size, else returns</span>
+    <span class="pl-c">// the equivalent of get_combined_snippet().</span>
+    lines_t get_coalesced_snippet(<span class="pl-k">const</span> std::string&amp; filename,
+            <span class="pl-c1">size_t</span> line_a, <span class="pl-c1">size_t</span> line_b, <span class="pl-c1">size_t</span> context_size)</pre></div>
+
+<h3><a id="user-content-printer" class="anchor" href="https://github.com/bombela/backward-cpp#printer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Printer</h3>
+
+<p>A simpler way to pretty print a stack trace to the terminal. It will
+automatically resolve the traces for you:</p>
+
+<div class="highlight highlight-c++"><pre><span class="pl-k">using</span> <span class="pl-k">namespace</span> <span class="pl-en">backward</span><span class="pl-k">;</span>
+Stacktrace st; st.load_here(<span class="pl-c1">32</span>);
+Printer p;
+p.object = <span class="pl-c1">true</span>;
+p.color = <span class="pl-c1">false</span>;
+p.address = <span class="pl-c1">true</span>;
+p.print(st, stderr);</pre></div>
+
+<p>You can set a few options:</p>
+
+<div class="highlight highlight-c++"><pre><span class="pl-k">class</span> <span class="pl-en">Printer</span> { <span class="pl-k">public:</span>
+    <span class="pl-c">// Print a little snippet of code if possible.</span>
+    <span class="pl-k">bool</span> snippet = <span class="pl-c1">true</span>;
+
+    <span class="pl-c">// Colorize the trace (only set a color when printing on a terminal)</span>
+    <span class="pl-k">bool</span> color = <span class="pl-c1">true</span>;
+
+    <span class="pl-c">// Add the addresses of every source location to the trace.</span>
+    <span class="pl-k">bool</span> address = <span class="pl-c1">false</span>;
+
+    <span class="pl-c">// Even if there is a source location, prints the object the trace comes</span>
+    <span class="pl-c">// from as well.</span>
+    <span class="pl-k">bool</span> object = <span class="pl-c1">false</span>;
+
+    <span class="pl-c">// Resolve and print a stack trace. It takes a C FILE* object, only because</span>
+    <span class="pl-c">// it is possible to access the underalying OS-level file descriptor, which</span>
+    <span class="pl-c">// is then used to determine if the output is a terminal to print in color.</span>
+    <span class="pl-k">template </span>&lt;<span class="pl-k">typename</span> StackTrace&gt;
+        <span class="pl-c1">FILE</span>* <span class="pl-en">print</span>(StackTrace&amp; st, <span class="pl-c1">FILE</span>* os = stderr)</pre></div>
+
+<h3><a id="user-content-signalhandling" class="anchor" href="https://github.com/bombela/backward-cpp#signalhandling" aria-hidden="true"><span class="octicon octicon-link"></span></a>SignalHandling</h3>
+
+<p>A simple helper class that registers for you the most common signals and other
+callbacks to segfault, hardware exception, un-handled exception etc.</p>
+
+<p><code>backward.cpp</code> simply uses it like that:</p>
+
+<div class="highlight highlight-c++"><pre>backward::SignalHandling sh;</pre></div>
+
+<p>Creating the object registers all the different signals and hooks. Destroying
+this object doesn't do anything. It exposes only one method:</p>
+
+<div class="highlight highlight-c++"><pre><span class="pl-k">bool</span> <span class="pl-en">loaded</span>() <span class="pl-k">const</span> <span class="pl-c">// true if loaded with success</span></pre></div>
+
+<h3><a id="user-content-trace-object" class="anchor" href="https://github.com/bombela/backward-cpp#trace-object" aria-hidden="true"><span class="octicon octicon-link"></span></a>Trace object</h3>
+
+<p>To keep the memory footprint of a loaded <code>StackTrace</code> on the low-side, there a
+hierarchy of trace object, from a minimal <code>Trace</code>to a <code>ResolvedTrace</code>.</p>
+
+<h4><a id="user-content-simple-trace" class="anchor" href="https://github.com/bombela/backward-cpp#simple-trace" aria-hidden="true"><span class="octicon octicon-link"></span></a>Simple trace</h4>
+
+<div class="highlight highlight-c++"><pre><span class="pl-k">struct</span> <span class="pl-en">Trace</span> {
+    <span class="pl-k">void</span>*  addr; <span class="pl-c">// address of the trace</span>
+    <span class="pl-c1">size_t</span> idx;  <span class="pl-c">// its index (0 == most recent)</span>
+};</pre></div>
+
+<h4><a id="user-content-trace-with-local-variables" class="anchor" href="https://github.com/bombela/backward-cpp#trace-with-local-variables" aria-hidden="true"><span class="octicon octicon-link"></span></a>Trace with local variables</h4>
+
+<p>This is not used for now, but it might be used to carry Traces with snapshotted
+variables in the future.</p>
+
+<div class="highlight highlight-c++"><pre><span class="pl-k">struct</span> <span class="pl-en">TraceWithLocals</span>: <span class="pl-k">public</span> <span class="pl-en">Trace</span> {
+    std::vector&lt;Variable&gt; locals; <span class="pl-c">// Locals variable and values.</span>
+};</pre></div>
+
+<h4><a id="user-content-resolved-trace" class="anchor" href="https://github.com/bombela/backward-cpp#resolved-trace" aria-hidden="true"><span class="octicon octicon-link"></span></a>Resolved trace</h4>
+
+<p>A <code>ResolvedTrace</code> should contains a maximum of details about the location of
+the trace in the source code. Note that not all fields might be set.</p>
+
+<div class="highlight highlight-c++"><pre><span class="pl-k">struct</span> <span class="pl-en">ResolvedTrace</span>: <span class="pl-k">public</span> <span class="pl-en">TraceWithLocals</span> {
+
+    <span class="pl-k">struct</span> <span class="pl-en">SourceLoc</span> {
+        std::string function;
+        std::string filename;
+        <span class="pl-c1">size_t</span>      line;
+        <span class="pl-c1">size_t</span>      col;
+    };
+
+    <span class="pl-c">// In which binary object this trace is located.</span>
+    std::string                    object_filename;
+
+    <span class="pl-c">// The function in the object that contains the trace. This is not the same</span>
+    <span class="pl-c">// as source.function which can be an function inlined in object_function.</span>
+    std::string                    object_function;
+
+    <span class="pl-c">// The source location of this trace. It is possible for filename to be</span>
+    <span class="pl-c">// empty and for line/col to be invalid (value 0) if this information</span>
+    <span class="pl-c">// couldn't be deduced, for example if there is no debug information in the</span>
+    <span class="pl-c">// binary object.</span>
+    SourceLoc                      source;
+
+    <span class="pl-c">// An optional list of "inliners". All of these sources locations where</span>
+    <span class="pl-c">// inlined in the source location of the trace (the attribute right above).</span>
+    <span class="pl-c">// This is especially useful when you compile with optimizations turned on.</span>
+    <span class="pl-k">typedef</span> std::vector&lt;SourceLoc&gt; <span class="pl-c1">source_locs_t</span>;
+    <span class="pl-c1">source_locs_t</span>                  inliners;
+};</pre></div>
+
+<h2><a id="user-content-contact-and-copyright" class="anchor" href="https://github.com/bombela/backward-cpp#contact-and-copyright" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact and copyright</h2>
+
+<p>François-Xavier Bourlet <a href="mailto:bombela@gmail.com">bombela@gmail.com</a></p>
+
+<p>Copyright 2013 Google Inc. All Rights Reserved.
+MIT License.</p>
+
+<h3><a id="user-content-disclaimer" class="anchor" href="https://github.com/bombela/backward-cpp#disclaimer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Disclaimer</h3>
+
+<p>Although this project is owned by Google Inc. this is not a Google supported or
+affiliated project.</p>
+</article>
+  </div>
+
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com/" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com/" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com/" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+        <li><a href="https://help.github.com/" data-ga-click="Footer, go to help, text:help">Help</a></li>
+
+    </ul>
+
+    <a href="https://github.com/" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+</a>
+    <ul class="site-footer-links">
+      <li>© 2015 <span title="0.04132s from github-fe135-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-suggester-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents" placeholder=""></textarea>
+      <div class="suggester-container">
+        <div class="suggester fullscreen-suggester js-suggester js-navigation-container"></div>
+      </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="https://github.com/bombela/backward-cpp#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="https://github.com/bombela/backward-cpp#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w" aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="https://github.com/bombela/backward-cpp#" class="octicon octicon-x flash-close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="./backward-cpp_files/frameworks-3241a40a58a82e21daef3dd3cdca01bde189158793c1b6f9193fff2b5293cd1d.js"></script>
+      <script async="async" crossorigin="anonymous" src="./backward-cpp_files/index-d3ef45e52a74e2511c31a0051d5dfd10b60b12a8b8a738ead962c35e11dbcc1f.js"></script>
+      
+      
+  
+
+
+<div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" style="position: absolute; left: 0px; top: -9999px; width: 1px; height: 1px; z-index: 999999999;"><object id="global-zeroclipboard-flash-bridge" name="global-zeroclipboard-flash-bridge" width="100%" height="100%" type="application/x-shockwave-flash" data="https://assets-cdn.github.com/flash/ZeroClipboard.v2.1.6.swf"><param name="allowScriptAccess" value="always"><param name="allowNetworking" value="all"><param name="menu" value="false"><param name="wmode" value="transparent"><param name="flashvars" value="trustedOrigins=github.com%2C%2F%2Fgithub.com%2Chttps%3A%2F%2Fgithub.com&amp;swfObjectId=global-zeroclipboard-flash-bridge"></object></div></body></html>

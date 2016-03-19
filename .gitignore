@@ -1,0 +1,11 @@
+*.pyc
+*.[xo]
+*.so
+
+*.h5
+*.nc
+*.log
+*.tar
+
+# no html directories
+**/*_files/*
