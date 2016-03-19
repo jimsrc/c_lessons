@@ -1,6 +1,7 @@
 ## LESSONS FROM C & C++
 
-- #**global**: use of global variables w/ linked objects.
+- #**global**: 
+use of global variables w/ linked objects.
 
 Usage:
 ```
@@ -16,7 +17,8 @@ cd templates
 make clean && make
 ```
 
-- #**exceptions**: use of try/catch :trollface:
+- #**exceptions**: 
+use of try/catch :trollface:
 
 - #**backward-cpp**: reports stack trace (it woulb nice to report the line sentence of *every* call chain) :squirrel:
 
