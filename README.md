@@ -7,21 +7,24 @@ Different lessons with the following titles.
 ### **global**: 
 use of global variables w/ linked objects.
 
-Usage:
+This code handles/modifies a global variables from different linked objects.
+To run:
 
 ```bash
  cd global/linked 
  make clean && make
+./exe
 ```
 
 ---
 ### **templates**: 
 use of templates with linked objects :smiley:
 
-Use:
-```
+To run:
+```bash
 cd templates
 make clean && make
+./tt.x
 ```
 
 ---
