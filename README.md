@@ -7,7 +7,7 @@ Different lessons with the following titles.
 ### **global**: 
 use of global variables w/ linked objects.
 
-This code handles/modifies a global variables from different linked objects.
+This code handles/modifies a global variable from different linked objects.
 To run:
 
 ```bash

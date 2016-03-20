@@ -13,8 +13,10 @@
 #include <string.h>
 #include <ctype.h>
 
+#include "control.h"
 using namespace std;
 
+// declarations (not definitions!)
 extern double glob;
 void my_func(double&); // extern is optional!
 void ff2();
@@ -29,5 +31,6 @@ int main(){
     ff2();
     printf(" ---> g: %g\n", glob);
 
+    printf(" ---> @main(): %g", CTE);
     return 0;
 }

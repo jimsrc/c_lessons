@@ -13,6 +13,8 @@
 #include <string.h>
 #include <ctype.h>
 */
+
+#include "control.h"
 double glob;
 
 void my_func(double &var){
