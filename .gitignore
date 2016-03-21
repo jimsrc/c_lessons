@@ -1,6 +1,7 @@
 *.pyc
 *.[xo]
 *.so
+a.out
 
 *.h5
 *.nc
@@ -9,3 +10,5 @@
 
 # no html directories
 **/*_files/*
+
+
