@@ -4,6 +4,17 @@
 
 extern double glob;
 
+class myclass{
+    int a, b;
+    myclass();
+};
+
+myclass::myclass(){
+    a = 777;
+    b = 0;
+}
+
+
 void ff2(){
     glob = 55.5;
 

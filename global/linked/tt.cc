@@ -20,6 +20,7 @@ using namespace std;
 extern double glob;
 void my_func(double&); // extern is optional!
 void ff2();
+//extern class myclass; // asi no; se declara con .h
 
 int main(){
     glob = 9.99;
@@ -32,5 +33,6 @@ int main(){
     printf(" ---> g: %g\n", glob);
 
     printf(" ---> @main(): %g", CTE);
+    //myclass mc;
     return 0;
 }

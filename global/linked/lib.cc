@@ -17,6 +17,9 @@
 #include "control.h"
 double glob;
 
+
+//extern class myclass;
+
 void my_func(double &var){
     var = 8.321;
 }
