@@ -8,6 +8,9 @@ a.out
 *.log
 *.tar
 
+# vim sessions
+*.vim
+
 # no html directories
 **/*_files/*
 
